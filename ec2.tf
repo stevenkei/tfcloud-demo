@@ -6,4 +6,4 @@ resource "aws_instance" "hello-world" {
  tags = {
    Name = "Hello world"
    Project = "Terraform-cloud-demo"
- }
+ }}
