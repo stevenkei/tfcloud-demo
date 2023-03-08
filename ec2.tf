@@ -4,6 +4,6 @@ resource "aws_instance" "hello-world" {
  instance_type = "t2.micro"
  key_name = "terraformKP"
  tags = {
-	 Name = "Hello world"
+   Name = "Hello world"
    Project = "Terraform-cloud-demo"
  }
